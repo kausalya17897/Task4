@@ -1,8 +1,9 @@
-//Square of a number
+//1)Square of a number
 var a=5;
 console.log(Math.pow(a,2));//inbulid method
 console.log(a*a);//primitive method
-//Swapping 2 numbers
+
+//2)Swapping 2 numbers
 function swap(x,y)
 {
     console.log("before swap");
@@ -14,46 +15,60 @@ function swap(x,y)
     console.log(x,y);
 }
 swap(3,4);
-//Addition of 3 numbers
+
+//3)Addition of 3 numbers
 let b=1,c=2,d=3;
 console.log("add",b+c+d);
-//Celsius to Fahrenheit conversion
+
+//4)Celsius to Fahrenheit conversion
 var deg=32;
 console.log("deg",deg*1.8+32);
-//Meter to miles
+
+//5)Meter to miles
 //1mile=1600meter
 var mile=2;
 console.log("miles",mile/1600);
-//Pounds to kg
+
+//6)Pounds to kg
 var pound=2;
 console.log("pounds",pound*0.45359237);
-//Calculate Batting Average
+
+//7)Calculate Batting Average
 var runs=50;
 var out=2;
 console.log("batting avg",runs/out);
-//Calculate five test scores and print their average
+
+//8)Calculate five test scores and print their average
 var test_scores=[10,34,89,44,33]
 console.log(test_scores.reduce((curr,sum)=>sum+curr,0));
-//Power of any number x ^ y.
+
+//9)Power of any number x ^ y.
 console.log(Math.pow(2,3));
-//Calculate Simple Interest
+
+//10)Calculate Simple Interest
 let pi=100,n=2,r=2;
 console.log((pi*n*r)/100);
-//Calculate area of an equilateral triangle
+
+//11)Calculate area of an equilateral triangle
 var side=2;
 console.log((Math.pow(3,0.5)/2)*side*side);
-//Area Of Isosceles Triangle
+
+//12)Area Of Isosceles Triangle
 let base=5,height=2;
 console.log((base*height)/2);
-//Volume Of Sphere
+
+//13)Volume Of Sphere
 var r=2;
 console.log((4/3)*3.14*r*r*r);
-//Volume Of Prism
+
+//14)Volume Of Prism
 var basee=2,heightt=3;
 console.log(basee*heightt);
-//Find area of a triangle
+
+//15)Find area of a triangle
 var bse=3,hgt=2;
 console.log((bse*hgt)/2);
+
 //16)Give the Actual cost and Sold cost, Calculate Discount Of Product
 //using func
 var discperc=function(cp,sp){
